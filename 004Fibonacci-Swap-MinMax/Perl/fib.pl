@@ -19,12 +19,4 @@ sub fib {
 
 
 
-sub main {
-
-    my @argv = @_;
-
-    fib(10000);
-}
-
-
-main(@ARGV);
+&fib(10000);
